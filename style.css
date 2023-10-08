@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 100%;
+  min-height: 100vh;
+  background: #8B7F60;
+  display: grid;
+}
+
+.box {
+  width: 40vw;
+  height: 70vh;
+  background: #fff;
+  border-radius: 2rem;
+  place-self: center;
+  display: grid;
+}
+
+.content {
+  place-self: center;
+  color: crimson;
+  font-size: 5 rem;
+  display: flex;
+}
+
+.content img {
+  width: 40%;
+  margin: 20px;
+  padding: 20px;
+}
+
+.content h1 {
+  vertical-align: center;
+}
+
